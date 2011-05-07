@@ -3,6 +3,7 @@ var couchapp = require('./main.js')
   , watch = require('watch')
   , path = require('path')
   , fs = require('fs')
+  , CoffeeScript = require('coffee-script')
   ;
 
 function abspath (pathname) {
